@@ -54,7 +54,7 @@ a{
 .sidebar{
 	grid-area: sidebar;
 	text-align: center;
-	background-image:url(../imagenes/fondo1.jpg);
+	background-image:url(fondo1.jpg);
 
 }
 
