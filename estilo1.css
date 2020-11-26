@@ -57,7 +57,7 @@ a{
 	align-self:center;
 	grid-area: sidebar;
 	text-align: center;
-	background-image:url(../fondo1.jpg);
+	background-image:url(../imagenes/fondo1.jpg);
 
 }
 
@@ -153,6 +153,15 @@ h4{ margin-right:10px;
 	margin-left: 3%;
 }
 
+h5{  font-size:20px;
+	font-family: 'Carter One';
+}
+
+h6{
+	font-size:20px;
+	font-family:Arial;
+}
+
 
 #formulario{
 	font-family: 'Carter One';
@@ -229,7 +238,6 @@ p{
 	padding-left: 5%;
 	font-size: 18pt;
 }
-
 
 .redes{
 	float: left;
@@ -398,5 +406,7 @@ p{
 
 }
 
+
+ 
 
  
