@@ -57,7 +57,7 @@ a{
 	align-self:center;
 	grid-area: sidebar;
 	text-align: center;
-	background-image:url(fondo1.jpg);
+	background-image:url(../fondo1.jpg);
 
 }
 
