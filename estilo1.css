@@ -166,7 +166,7 @@ h6{
 #formulario{
 	font-family: 'Carter One';
 	float: left;
-    align-self: center;
+	position:relative;
 	top: 7%;
 	background-color: silver;
 	border-radius: 5px;
@@ -195,6 +195,13 @@ h6{
  	width: 100%
  }
 
+.footer{
+	text-align:center;
+	grid-area: footer;
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 18px;
 }
 
 @media (min-width: 600px) {
@@ -272,7 +279,13 @@ p{
 }
 
 .sidebar{
+	font-family: 'Carter One';
+	text-align:center;
+	align-self:center;
 	grid-area: sidebar;
+	text-align: center;
+	background-image:url(../imagenes/fondo1.jpg);
+
 }
 
 .titulo{
@@ -353,7 +366,13 @@ p{
 }
 
 .sidebar{
+	font-family: 'Carter One';
+	text-align:center;
+	align-self:center;
 	grid-area: sidebar;
+	text-align: center;
+	background-image:url(../imagenes/fondo1.jpg);
+
 }
 
 
@@ -405,6 +424,9 @@ p{
 	margin-bottom:2%;
 
 }
+
+
+ 
 
 
  
