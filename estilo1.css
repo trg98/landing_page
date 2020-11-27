@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 *{
@@ -57,7 +58,7 @@ a{
 	align-self:center;
 	grid-area: sidebar;
 	text-align: center;
-	background-image:url(..fondo1.jpg);
+	background-image:url(../imagenes/fondo1.jpg);
 
 }
 
@@ -303,14 +304,15 @@ p{
 
 #formulario{
 	font-family: 'Carter One';
-	float: left;
-	position: fixed;
+	float: right;
+	margin-right:130px;
+	position:relative;
 	top: 7%;
-	margin-left: 20%;
 	background-color: silver;
 	border-radius: 5px;
 	width: 300px;
 	padding: 15px;
+
 }
 
 .enviar{
@@ -388,14 +390,15 @@ p{
 
 #formulario{
 	font-family: 'Carter One';
-	float: left;
+	float: right;
+	margin-right:130px;
 	position:relative;
 	top: 7%;
-	margin-left: 20%;
 	background-color: silver;
 	border-radius: 5px;
 	width: 300px;
 	padding: 15px;
+
 }
 
 .anchoform{
@@ -427,6 +430,7 @@ p{
 }
 
 
+ 
  
 
 
