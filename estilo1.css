@@ -165,12 +165,13 @@ h6{
 
 #formulario{
 	font-family: 'Carter One';
-	float: left;
+	float: right;
+	margin-right:130px;
 	position:relative;
 	top: 7%;
 	background-color: silver;
 	border-radius: 5px;
-	width: 280px;
+	width: 300px;
 	padding: 15px;
 
 }
