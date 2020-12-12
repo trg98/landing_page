@@ -12,7 +12,8 @@ html{
 }
 
 body{
-    
+
+
     font-weight:10px;
 	font-size: 1.0rem;
 	min-height: 100%; 
@@ -25,7 +26,7 @@ body{
 	grid-template: 
 	"header" 100px
 	"main"	auto
-	"sidebar" 500px
+	"sidebar" 1000px
 	"footer" 30px
 	;
 }
@@ -45,6 +46,15 @@ a{
 }
 
 .main{
+	width:500px;
+	padding:1%;
+	margin-left:10px;
+    border-radius:10px;
+	grid-area: main;
+	background-color:silver;
+}
+
+.main1{
 	align-content:center;
 	margin-left:10px;
     border-radius:10px;
@@ -52,20 +62,30 @@ a{
 	background-color:silver;
 }
 
-.sidebar{
-	font-family: 'Carter One';
-	text-align:center;
-	align-self:center;
-	grid-area: sidebar;
-	text-align: center;
-	background-image:url(../imagenes/fondo1.jpg);
 
+.sidebar{
+	width:90%;
+	float:right;
+	margin-right:150px;
+	padding:2%;
+	border-radius:10px;
+	background-color:silver;
+	font-family: 'Carter One';
+	grid-area: sidebar;
 }
 
 .footer{
 	text-align:center;
 	grid-area: footer;
-	
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
 }
 
 #logo{
@@ -74,12 +94,7 @@ a{
 	margin-left:40px;
 }
 
-.redes{
-	float: left;
-	margin-left: 60%;
-	margin-bottom:8%;
 
-}
 	
 .titulo{
 	font-family:Arial;
@@ -126,10 +141,10 @@ a{
 
 }
 
-p{
+p{   
 	padding-top: 2%;
 	padding-left: 5%;
-	font-size: 18pt;
+	font-size: 10pt;
 }
 
 ul{ font-size:16px;
@@ -142,7 +157,7 @@ h2{ font-size:20px;
 }
 
 h3{ font-family: 'Carter One';
-    font-size:30px;
+    font-size:25px;
 	margin-top: 3px;
 	margin-left: 3%;
 }
@@ -161,12 +176,16 @@ h5{  font-size:20px;
 h6{
 	font-size:20px;
 	font-family:Arial;
+	margin-bottom:20px;
 }
+
+
+
 
 
 #formulario{
 	font-family: 'Carter One';
-	float: right;
+	float: left;
 	margin-right:130px;
 	position:relative;
 	top: 7%;
@@ -203,7 +222,12 @@ h6{
 	color: white;
     font-family: 'Carter One';
     background-color: red; 
-	font-size: 18px;
+	font-size: 15px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
 }
 
 @media (min-width: 600px) {
@@ -248,15 +272,12 @@ p{
 	font-size: 18pt;
 }
 
-.redes{
-	float: left;
-	margin-left: 60%;
-	margin-bottom:2%;
 
-}
 
 .main{
-	margin-left:10px;
+	width:500px;
+	padding:1%;
+	margin-left:100px;
     border-radius:10px;
 	grid-area: main;
 	background-color:silver;
@@ -267,8 +288,11 @@ p{
 	background-color:white;
 }
 
-.cabezera{
+.cabecera{
 	float: left;
+	animation:infinite;
+
+
 }
 
 .footer{
@@ -278,16 +302,22 @@ p{
     font-family: 'Carter One';
     background-color: red; 
 	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
 }
 
 .sidebar{
+	width:90%;
+	float:right;
+	margin-right:150px;
+	padding:2%;
+	border-radius:10px;
+	background-color:silver;
 	font-family: 'Carter One';
-	text-align:center;
-	align-self:center;
 	grid-area: sidebar;
-	text-align: center;
-	background-image:url(../imagenes/fondo1.jpg);
-
 }
 
 .titulo{
@@ -366,16 +396,22 @@ p{
     font-family: 'Carter One';
     background-color: red; 
 	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
 }
 
 .sidebar{
+	width:90%;
+	float:right;
+	margin-right:150px;
+	padding:2%;
+	border-radius:10px;
+	background-color:silver;
 	font-family: 'Carter One';
-	text-align:center;
-	align-self:center;
 	grid-area: sidebar;
-	text-align: center;
-	background-image:url(../imagenes/fondo1.jpg);
-
 }
 
 
@@ -421,19 +457,3 @@ p{
 	box-shadow: inset 0 0 0 5px #F4E501;
 }
 
-
-.redes{
-	float: left;
-	margin-left: 60%;
-	margin-bottom:2%;
-
-}
-
-
- 
- 
-
-
- 
-
- 
